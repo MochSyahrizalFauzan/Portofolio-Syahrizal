@@ -42,5 +42,4 @@ next-env.d.ts
 
 #ignore agent files
 /agent
-
 /README
