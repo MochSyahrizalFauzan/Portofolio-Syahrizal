@@ -3,6 +3,11 @@ export const assets = {
     cvId: "/documents/cv-id.pdf",
     cvEn: "/documents/cv-en.pdf",
   },
+  icon:{
+    linkedin: "/icons/linkedin.png",
+    github: "/icons/github.png",
+    instagram: "/icons/instagram.png",
+  },
   profile: {
     image: "/images/profile/profile.jpeg",
   },

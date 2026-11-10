@@ -120,7 +120,8 @@ export default function PortfolioShell() {
             </motion.div>
             <motion.div className="social-links" {...fade}>
               <a href={profile.github} target="_blank" rel="noopener noreferrer">GitHub <ArrowUpRight size={14} /></a>
-              <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight size={14} /></a>
+              <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" src={assets.icon.linkedin}>LinkedIn <ArrowUpRight size={14} /></a>
+              <a href={profile.instagram} target="_blank" rel="noopener noreferrer">Instagram <ArrowUpRight size={14} /></a>
             </motion.div>
           </div>
           <motion.div className="hero-aside" {...fade}>
@@ -161,8 +162,6 @@ export default function PortfolioShell() {
                 style={{ width: "100%", height: "100%" }}
               />
             </div>
-            <div className="hero-mark">FS<span>/</span>26</div>
-            <p>{profile.location}</p>
             <span className="scroll-note"><ArrowDown size={14} /> Scroll to explore</span>
           </motion.div>
         </section>
